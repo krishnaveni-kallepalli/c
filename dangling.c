@@ -11,7 +11,7 @@ int main()
 	free(ptr);
 	
 	// No more a dangling pointer
-	//ptr = NULL;
+	ptr = NULL;
 	return 0;
 }
 
